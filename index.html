@@ -13,11 +13,16 @@
     <div id="container">
         <h1>Conversor de valores</h1>
         <form>
-            <label for="preco">Valor da corrida</label>
-            <input type="number" id="preco" />
+            <div class="divInputs">
+                <label for="preco">Valor da corrida:</label>
+                <input type="number" id="preco" />
+            </div>
 
-            <label for="km">Valor da corrida</label>
-            <input type="number" id="km" />
+            <div class="divInputs">
+                <label for="km">Quilometragem:</label>
+                <input type="number" id="km" />
+            </div>
+
             <div id="divButton">
                 <button onclick="calcular()">
                     Calcular
