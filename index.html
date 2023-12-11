@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./code/"></script>
+    <link rel="stylesheet" href="./style/style.css">
     <title>Conversor de valores</title>
 </head>
+
 <body>
-    <h1>Conversor de valores</h1>
+    <div id="container">
+        <h1>Conversor de valores</h1>
+        <form>
+            <label for="preco">Valor da corrida</label>
+            <input type="number" id="preco" />
+
+            <label for="km">Valor da corrida</label>
+            <input type="number" id="km" />
+            <div id="divButton">
+                <button onclick="calcular()">
+                    Calcular
+                </button>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
