@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./code/code.js"></script>
     <link rel="stylesheet" href="./style/style.css">
-    <title>Conversor de valores</title>
+    <link rel="icon" href="./logo.ico" type="image/x-icon">
+    <title>Calculadora do Galada</title>
 </head>
 
 <body>
     <div id="container">
-        <h1>Conversor de valores</h1>
+        <img src="./logo.ico" id="logo">
+        <h1 id="titulo">Calculadora do Galada</h1>
         <form>
             <div class="divInputs">
                 <label for="preco">Valor da corrida:</label>
@@ -20,7 +22,7 @@
             </div>
 
             <div class="divInputs">
-                <label for="km">Quilometragem:</label>
+                <label for="km">Distância:</label>
                 <input type="number" id="km" step="0.01" placeholder="1,5 Km" required
                     onclick="selecionarTexto(this)" />
             </div>
